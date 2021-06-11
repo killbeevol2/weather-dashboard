@@ -1,0 +1,18 @@
+* {
+  box-sizing: content-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(
+    darkblue,
+    rgb(65, 65, 245),
+    rgb(69, 164, 243)
+  );
+  color: whitesmoke;
+  background-position: center bottom;
+  transition: all 1s ease;
+  padding: 45px 30px;
+  text-align: center;
+}
