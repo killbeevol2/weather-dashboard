@@ -14,3 +14,7 @@ API - Allows two applications to speak to each other to exchange or use informat
 ## Usage
 
 User can find the weather forecast for the current day, up to 5 days ahead, for the city searched. This is useful for gathering quick data for the User!
+
+## Links
+
+[Deployed Link](https://killbeevol2.github.io/weather-dashboard/)
