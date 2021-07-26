@@ -13,3 +13,11 @@ const futureForecast = (searchInput) => {
     console.log(data);
   });
 };
+
+const handleSearch = (event) => {
+  event.preventDefault();
+  const search = $(".search-input").val().trim();
+  currentWeather(search);
+  futureForecast(search);
+};
+$(".searchBtn").on("click", handleSearch);
