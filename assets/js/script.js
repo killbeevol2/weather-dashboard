@@ -1,8 +1,5 @@
 const apiKey = "623e9032c9f9cf85d8db90c25579c5ff";
-const history = localStorage.getItem("searchHistory") || [];
-if (history.length > 0) {
-  renderHistory();
-}
+let history = localStorage.getItem("searchHistory") || [];
 
 const currentWeather = (searchInput) => {
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${searchInput}&appid=${apiKey}&units=imperial`;
@@ -102,3 +99,8 @@ const handleHistorySearch = (event) => {
 };
 
 $(document).on("click", ".history", handleHistorySearch);
+
+if (history.length > 0) {
+  history = JSON.parse(history);
+  renderHistory(history);
+}
