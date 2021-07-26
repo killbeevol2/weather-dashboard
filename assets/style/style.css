@@ -15,3 +15,36 @@ header {
   padding: 45px 30px;
   text-align: center;
 }
+
+span {
+  padding: 0px 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.card > img {
+  max-height: 32px;
+  max-width: 32px;
+}
+
+.card {
+  background-color: rgb(3, 17, 150);
+}
+
+.green {
+  background-color: rgb(17, 155, 17);
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.red {
+  background-color: red;
+}
